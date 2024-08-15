@@ -26,7 +26,7 @@ NAV{
     display: flex;
     height: 155px;
     background-image: url(png/discount_white_bg_last.png);
-    background-color: rgb(228, 80, 80);
+    background-color: rgb(49, 114, 255);
     background-size: cover;
     background-position: center;
 }
@@ -39,11 +39,11 @@ NAV{
 .top_btn{
     border: 4px solid white;
     color: white;
-    background-color: rgb(228, 80, 80);
+    background-color: rgb(49, 114, 255);
 }
 .top_btn:hover{
     opacity: 0.9;
-    background-color: rgb(163, 55, 55);
+    background-color: rgb(30, 70, 157);
 }
 
 /*USUAL-PRODUCT-WRAPPER*/
@@ -121,7 +121,7 @@ NAV{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(53, 134, 254);
+    background-color:rgb(53, 134, 254);
     border: 0;
     border-radius: 50%;
     color: white;
@@ -142,7 +142,7 @@ NAV{
     align-items: center;
 }
 .middle_advertising_wrapper{
-    background-image: url(png/BlueBox_discount_.png);
+    background-image: url(png/REDBOX.png);
     background-size: cover;
     background-position: center;
 }
@@ -181,11 +181,11 @@ NAV{
 .middle_btn{
     border: 4px solid white;
     color: white;
-    background-color: #20ccf2;
+    background-color: rgb(203 45 29);
 }
 .middle_btn:hover{
     opacity: 0.9;
-    background-color: #19a2c1;
+    background-color: rgb(126, 45, 45)
 }
 
 /*DISCOUNT_PRODUCT*/
@@ -222,7 +222,7 @@ NAV{
 /*bottom_add*/
 .bottom_advertising_wrapper{
     background-image: url(png/discount_white_bg_last.png);
-    background-color: rgb(255 154 0 / 96%);
+    background-color: #355d35;
     background-size: cover;
     background-position: center;
 }
@@ -264,11 +264,11 @@ NAV{
 .bottom_add_button{
     font-size: 20px;
     font-weight: bold;
-    border: 1px solid rgb(58, 135, 251);
+    border: 1px solid rgb(44 138 129);
     border-radius: 10px;
     color: white;
-    background-color: rgb(58, 135, 251);
-    box-shadow: 0 3px 0 rgb(109, 109, 109), 0 4px 0 #737373, 0 5px 0 rgb(82, 82, 82), 0 1px 3px rgba(0,0,0,.3), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), 2px 2px 2px rgba(206,89,55,0);
+    background-color: rgb(44 138 129);
+    box-shadow: 0 3px 0 rgb(96, 96, 96), 0 4px 0 #696969, 0 5px 0 rgb(74, 74, 74), 0 1px 3px rgba(0,0,0,.3), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), 2px 2px 2px rgba(206,89,55,0);
     padding: 20px;
     width: 600px;
     margin-right: 100px;
@@ -276,8 +276,8 @@ NAV{
 .bottom_add_button:hover{
     opacity: 0.9;
     cursor: pointer;
-    background-color: rgb(44, 98, 179);
-    border: 1px solid rgb(44, 98, 179);
+    background-color: rgb(34, 104, 97);
+    border: 1px solid rgb(34, 104, 97);
     box-shadow: none;
 }
 
