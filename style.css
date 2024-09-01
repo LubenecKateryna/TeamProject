@@ -1,0 +1,35 @@
+body {
+    background-color: #272626; /* Цвет фона */
+    background-image: url('background.jpg'); /* Фоновое изображение */
+    background-size: cover; /* Размер изображения */
+    background-repeat: no-repeat; /* Без повторения */
+    background-position: center center; /* Центрирование изображения */
+}
+
+footer {
+    color: white; /* Цвет текста в футере */
+}
+
+.footer-list {
+    list-style: none; /* Убирает маркеры у списка */
+    padding: 0; /* Убирает отступы */
+    margin: 0; /* Убирает внешние отступы */
+}
+
+.footer-list li {
+    margin: 10px 0; /* Отступы между элементами списка */
+}
+
+.footer-list a {
+    color: white; /* Цвет текста ссылки */
+    text-decoration: none; /* Убирает подчеркивание ссылки */
+}
+
+.footer-list a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+}
+.abc {color:aliceblue}
