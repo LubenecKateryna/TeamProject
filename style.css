@@ -1,4 +1,8 @@
 /*START*/
+* {
+    transition: 0.3s;
+}
+
 html{
     scroll-behavior: smooth;
     user-select: none;
@@ -49,13 +53,13 @@ body {
     height: 50px;
     border-radius: 15%;
     background-color: white;
-    box-shadow: 0 3px 0 #bbb, 
-                0 4px 0 #b9b9b9, 
-                0 5px 0 #aaa, 
-                0 1px 3px rgba(0,0,0,.3), 
-                0 5px 10px rgba(0,0,0,.25), 
-                0 10px 10px rgba(0,0,0,.2), 
-                0 20px 20px rgba(0,0,0,.15), 
+    box-shadow: 0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 1px 3px rgba(0,0,0,.3),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
                 2px 2px 2px rgba(206,89,55,0);
 }
 .add_text_content_title{
@@ -63,21 +67,34 @@ body {
     margin: 0;
     font-size: 40px;
     font-weight: 800;
-    text-shadow: 0 3px 0 #bbb, 
-                0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
-                0 1px 3px rgba(0,0,0,.3), 
-                0 5px 10px rgba(0,0,0,.25), 
-                0 10px 10px rgba(0,0,0,.2), 
-                0 20px 20px rgba(0,0,0,.15), 
+    text-shadow: 0 3px 0 #bbb,
+                0 4px 0 #b9b9b9, 0 5px 0 #aaa,
+                0 1px 3px rgba(0,0,0,.3),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
                 2px 2px 2px rgba(206,89,55,0);
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .add_text_content_title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .add_text_content_title {
+        font-size: 20px;
+    }
+}
+
 .add_content_bottom a{
     text-decoration: none;
 }
 .add_content_btn{
     cursor: pointer;
     text-decoration: none;
-    border-radius: 50%; 
+    border-radius: 50%;
     padding: 15px 25px 15px 25px;
     border: 4px solid white;
     color: white;
@@ -87,9 +104,9 @@ body {
     width: 100px;
     box-shadow: 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
                 0 5px 0 #aaa, 0 1px 3px rgba(0,0,0,.3),
-                0 5px 10px rgba(0,0,0,.25), 
-                0 10px 10px rgba(0,0,0,.2), 
-                0 20px 20px rgba(0,0,0,.15), 
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
                 2px 2px 2px rgba(206,89,55,0);
 }
 .add_content_btn_BG_red{
@@ -127,7 +144,7 @@ body {
 }
 .product-item:hover{
     box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
-                inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
+                inset 10px 10px 15px rgba(70, 70, 70, 0.12);
     transition: 0.8 ease;
 }
 .catalog_item_top{
@@ -144,7 +161,7 @@ body {
     background-color: green;
     font-weight: bold;
     font-size: 19px;
-    padding: 6px; 
+    padding: 6px;
 }
 .catalog_item_discount_a{
     text-decoration: none;
@@ -202,10 +219,13 @@ body {
     border: 0;
     border-radius: 50%;
     padding: 2px 13px 2px 15px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 .add_to_cart:hover{
     opacity: 0.9;
     background-color: rgb(42, 96, 177);
+    scale: 105%;
 }
 
 /*MIDDLE_ADVERTISING*/
@@ -269,9 +289,9 @@ body {
     padding: 20px 0 20px 0;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 3px 0 #bbb, 
-                0 1px 3px rgba(0,0,0,.3), 
-                0 20px 20px rgba(0,0,0,.15), 
+    box-shadow: 0 3px 0 #bbb,
+                0 1px 3px rgba(0,0,0,.3),
+                0 20px 20px rgba(0,0,0,.15),
                 2px 2px 2px rgba(206,89,55,0);
 }
 .add_content_bottom_btn:hover{
@@ -355,3 +375,262 @@ body {
     align-items: center;
     justify-content:center;
 }
+
+footer {
+    padding: 10px 5px;
+}
+
+.footer-list {
+    list-style: none; /* Убирает маркеры у списка */
+    padding: 0; /* Убирает отступы */
+    margin: 0; /* Убирает внешние отступы */
+}
+
+.footer-list li {
+    margin: 10px 0; /* Отступы между элементами списка */
+}
+
+.footer-list a {
+    color: black; /* Цвет текста ссылки */
+    text-decoration: none; /* Убирает подчеркивание ссылки */
+}
+
+.footer-list a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("IMG20240814232546982.png");
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+
+.nav-links {
+    display: none;
+    gap: 20px;
+}
+
+.show-menu {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+.icon svg {
+    width: 50px;
+    height: 50px;
+}
+
+.badge {
+    display: flex;
+    color: black;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-20px, 12px);
+}
+
+.cart-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background: white;
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.cart-popup-content {
+    padding: 20px;
+}
+
+.cart-popup.hidden {
+    transform: translateX(100%);
+}
+
+.cart-popup.visible {
+    transform: translateX(0);
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.pulse {
+    animation: pulse-animation 0.3s ease;
+}
+
+@keyframes pulse-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Общие стили для попапа */
+.cart-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.cart-popup.hidden {
+    transform: translateX(100%);
+}
+
+.cart-popup.visible {
+    transform: translateX(0);
+}
+
+/* Содержимое попапа */
+.cart-popup-content {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Кнопка закрытия попапа */
+.close-btn {
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+/* Заголовок попапа */
+.cart-popup-content h2 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Список товаров в корзине */
+.cart-items {
+    overflow-y: auto;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cart-item span {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.cart-item .item-quantity {
+    font-size: 14px;
+    color: #666;
+    margin-left: 5px;
+}
+
+/* Общая сумма */
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+    border-top: 2px solid #eee;
+    margin-top: 15px;
+}
+
+/* Кнопка "Купить" с анимацией градиента */
+.checkout-button {
+    background: linear-gradient(270deg, #ff7e5f, #feb47b, #8ed081, #70e1f5);
+    background-size: 400% 400%;
+    color: #fbf9f9;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 5px;
+    animation: gradientAnimation 8s ease infinite;
+}
+
+.checkout-button:hover {
+    transform: scale(1.05);
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+

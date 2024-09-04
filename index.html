@@ -8,7 +8,35 @@
     <title>TopMarket(Vegetables)</title>
 </head>
 <body>
-    <header id="header">
+    <header class="header">
+        <div class="icon">
+            <a href="#menu" id="menu-icon">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" color="black" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M9 8h10M9 12h10M9 16h10M4.99 8H5m-.02 4h.01m0 4H5"/>
+                </svg>
+            </a>
+        </div>
+        <div class="logo"><img src="Group1.png" alt="Company Logo"/></div>
+        <div class="nav-links">
+            <div class="icon">
+                <a href="#wishlist"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" color="black" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                </svg></a>
+            </div>
+            <div class="icon">
+                <a href="#cart" id="cart-icon">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" color="black" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                    </svg>
+                    <span class="badge" id="cart-badge">3</span>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="#profile"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="50" height="50" color="black" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-width="2.3" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                </svg></a>
+            </div>
+        </div>
     </header>
     <main>
         <section id="top_add_box" class="top_add_BG add_wrapper main_wrapper">
@@ -82,6 +110,46 @@
             </button>
         </section>
     </main>
+
+    <div id="cart-popup" class="cart-popup hidden">
+        <div class="cart-popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Ваша корзина</h2>
+            <div id="cart-items"></div>
+            <button id="checkout-button" class="checkout-button">Купити</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <img src="Group 1 2.svg" alt="" height="45px">
+            <div class="footer-section">
+                <div>
+                    <h4>Час роботи: (05:00 - 23:00)</h4>
+                    <div class="time">123</div>
+                </div>
+
+
+                <ul class="footer-list">
+                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#">Акції</a></li>
+                    <li><a href="#">Новини</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li><a href="#">Бонуси та знижки</a></li>
+                    <li><a href="#">Каталог з акціями</a></li>
+                    <li><a href="#">Свіжі товари</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li><a href="/bots">Чат боти:</a></li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWw8ALKZG_TXDdVs_3PQ8tMNYBn5p8DBdCw&s" alt="" height="40px">
+                    <img src="https://cdn-icons-png.flaticon.com/512/124/124016.png" alt="" height="40px">
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
 
     <script src="/main.js"></script>
 </body>
