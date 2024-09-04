@@ -19,8 +19,7 @@ body {
 
 /*TOP-ADVERTISING*/
 .top_add_BG{
-    background-image: url(png/discount_white_bg_last.png);
-    background-color: rgb(233 64 64);
+    background-color: rgb(37 84 73);
     background-size: cover;
     background-position: center;
 }
@@ -93,11 +92,11 @@ body {
                 2px 2px 2px rgba(206,89,55,0);
 }
 .add_content_btn_BG_red{
-    background-color: rgb(233 64 64);
+    background-color: rgb(37 84 73);
 }
 .add_content_btn_BG_red:hover{
     opacity: 0.9;
-    background-color: rgb(163, 55, 55);
+    background-color: rgb(24, 53, 46);
 }
 
 /*USUAL-PRODUCT-WRAPPER*/
@@ -141,7 +140,7 @@ body {
     width: max-content;
     border: 0;
     border-radius: 6px;
-    background-color: green;
+    background-color: rgb(23, 112, 186);
     font-weight: bold;
     font-size: 19px;
     padding: 6px; 
@@ -191,11 +190,10 @@ body {
     font-weight: 700;
 }
 .current_prise_text{
-    color: green;
     font-weight: 700;
 }
 .add_to_cart{
-    background-color: rgb(53, 134, 254);
+    background-color: green;
     color: white;
     font-size: 40px;
     font-weight: 600;
@@ -205,21 +203,21 @@ body {
 }
 .add_to_cart:hover{
     opacity: 0.9;
-    background-color: rgb(42, 96, 177);
+    background-color: rgb(2, 67, 2);
 }
 
 /*MIDDLE_ADVERTISING*/
 .middle_add_BG{
-    background-image: url(png/BlueBox_discount_.png);
+    background-image: url(png/REDBOX.png);
     background-size: cover;
     background-position: center;
 }
 .add_content_middleBtn_BG{
-    background-color: #20ccf2;
+    background-color: rgb(203 45 29);
 }
 .add_content_middleBtn_BG:hover{
     opacity: 0.9;
-    background-color: #1e9eba;
+    background-color: rgb(149, 37, 25);
 }
 
 /*DISCOUNT_PRODUCT*/
@@ -233,7 +231,7 @@ body {
     border: 0;
     border-radius: 6px;
     color: white;
-    background-color: red;
+    background-color: rgb(255, 55, 19, 95%);
     font-weight: bold;
     font-size: 19px;
     padding: 6px;
@@ -242,8 +240,7 @@ body {
 
 /*BOTTOM ADVERTISING*/
 .bottom_add_BG{
-    background-image: url(png/discount_white_bg_last.png);
-    background-color: rgb(255 154 0 / 96%);
+    background-color: rgb(72 144 91);
     background-size: cover;
     background-position: center;
 }
@@ -258,7 +255,7 @@ body {
 .add_content_bottom_btn{
     margin-right: 100px;
     color: white;
-    background-color: #48905b;
+    background-color: #428f7e;
     border: 3px solid white;
     border-radius: 30px;
     font-size: 20px;
@@ -283,7 +280,7 @@ body {
 
 /*TOOP*/
 .TOOP_BG{
-    background-color: rgb(56 112 70);
+    background-color: rgb(37 84 73);
 }
 .TOOP_content_position{
     height: 170px;
@@ -296,9 +293,9 @@ body {
 }
 .TOOP_content_title_BG{
     color: white;
-    text-shadow: -6px 15px 4px rgba(206,89,55,0),
-                -21px -14px 0px rgba(224,213,114,0.79),
-                -40px -32px 0px rgba(82,224,51,0.79);
+    text-shadow: -6px 15px 4px rgb(206 89 55 / 0%), 
+                -21px -14px 0px rgb(114 224 206 / 79%), 
+                -40px -32px 0px rgb(176 224 51 / 79%);
     cursor: pointer;
 }
 .TOOP_content_title_BG:hover{
@@ -341,8 +338,8 @@ body {
     font-weight: bolder;
 }
 .scroll_to_top_button:hover{
-    border-color: orange;
-    color: orange;
+    border-color: rgb(90, 196, 252);
+    color: rgb(90, 196, 252);
     transition: 0.2s;
 }
 .scroll_btn_visibility{
